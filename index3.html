@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bottom Navbar</title>
+    <title>AOIT Home</title>
     <link rel="stylesheet" href="bottomnav.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
@@ -14,31 +14,36 @@
 </head>
 
 <body>
+    <nav class="nav  justify-content-center nav-pills nav-fill sticky-top">
+
+        <ul>
+            <li><a href="#staff" class="nav-item nav-link mx-5">STAFF</a></li>
+            <li><a href="index2.html#courses" class="nav-item nav-link mx-5">COURSES</a></li>
+            <li><a href="#" class="nav-item nav-link mx-5">CONTACT</a></li>
+
+        </ul>
+
+    </nav>
     <div class="main">
+
+
         <div class="container">
             <div class=" row justify-content-center">
-                <img class="img-fluid mx-auto my-3 d-block" src="BAlogo1.png" alt="">
-                <h2 class="display-3 mt-4">Academy of Information Technology</h1>
+                <img id="logo" class="img-fluid mx-auto my-3" src="BAlogo1.png" alt="">
+                <h2 id="title" class="display-3 mt-4">Academy of Information Technology</h1>
             </div>
         </div>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center d-none d-xl-block ">
                 <h2 class="" id="subheader">Bryan Adams High School</h2>
             </div>
         </div>
 
-        <nav class="nav  justify-content-center nav-pills nav-fill">
-            <ul>
-                <li><a href="#" class="nav-item nav-link mx-5">STAFF</a></li>
-                <li><a href="#" class="nav-item nav-link mx-5">COURSES</a></li>
-                <li><a href="#" class="nav-item nav-link mx-5">CONTACT</a></li>
 
-            </ul>
 
-        </nav>
     </div>
 
-    <div class="container">
+    <div id="staff" class="container">
         <div class="box row" id="blurb">
             <div class="col-12 col-lg-7  py-5" id="inBlurb">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta consequatur distinctio. Officia
