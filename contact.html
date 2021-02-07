@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="bottomnav.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
@@ -60,24 +60,37 @@
 
 
     </div>
-    <div class="container" id="courses"></div>
+    <div class="container" id="contact"></div>
+    <h2 class="text-center">Questions?</h2>
     <div id="" class="container">
-        <div class="box row" id="blurb">
-            <h2>Fundamentals of Computer Science</h2><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aperiam ad ipsum dolor numquam maiores
-                odio excepturi molestias omnis hic! Ad suscipit eaque deleniti quidem ipsam laborum nostrum nisi in?</p>
-        </div>
-        <div class="box row" id="blurb">
-            <h2>Web Design</h2><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aperiam ad ipsum dolor numquam maiores
-                odio excepturi molestias omnis hic! Ad suscipit eaque deleniti quidem ipsam laborum nostrum nisi in?</p>
-        </div>
-        <div class="box row" id="blurb">
-            <h2>Web Game Development</h2><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aperiam ad ipsum dolor numquam maiores
-                odio excepturi molestias omnis hic! Ad suscipit eaque deleniti quidem ipsam laborum nostrum nisi in?</p>
-        </div>
+        <div class="row">
+            <form class="col-6">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 300px"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary mt-4">Submit</button>
 
+            </form>
+            <div class="box text-center col-6" id="blurb" style="align-items: center;">
+                <h2>Contact Us</h2><br>
+
+                <p><b>(972) 502-4900</b></p>
+                <p><b>brcruz@dallasisd.org</b></p>
+                <p>2101 Milmar Dr<br>
+                    Dallas, TX 75228</p>
+
+
+            </div>
+        </div>
     </div>
 
     <footer class="blog-footer">
