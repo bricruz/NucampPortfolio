@@ -1,4 +1,7 @@
-
+#navbarSupportedContent
+{
+    margin-right: 100px;
+}
 body{
     font-family: verdana;
     background:#eee;
@@ -47,7 +50,8 @@ h1, h2{
 }
 .nav ul li .nav-link:hover{
     color: #eee;
-    background: rgb(7, 105, 11);
+    background: rgb(12, 126, 16, 0.2);
+    opacity: 50;
 }
 .container{
     width: 70%;
