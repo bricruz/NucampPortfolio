@@ -127,3 +127,19 @@ h1, h2{
     background-color: #f9f9f9;
     border-top: .05rem solid #e5e5e5;
 }
+
+
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.fade-in{
+    animation: transitionIn 1s;
+}
