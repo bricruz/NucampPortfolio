@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
 
         <div class="container">
             <div class=" row justify-content-center">
-                <img id="logo" class="img-fluid mx-auto my-3" src="BAlogo1.png" alt="">
+                <img id="logo" class="img-fluid mx-auto my-3" src="BAlogo1.png" style="width: 25%; height: 25%;" alt="">
                 <h2 id="title" class="display-3 mt-4">Academy of Information Technology</h1>
             </div>
         </div>
@@ -65,34 +67,38 @@
     <h2 class="text-center">Questions?</h2>
     <div id="" class="container fade-in">
         <div class="row">
-            <form class="col-6">
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"><b>Name:</b></label>
-                    <input type="name" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"><b>Email address:</b></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 300px"></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary mt-4">Submit</button>
-
-            </form>
-            <div class="box text-center col-6" id="blurb" style="align-items: center;">
-                <h2>Contact Us</h2><br>
-                <div class="row justify-content-center">
-                    <div class="">
-                        <p><b>Phone:</b><br> (972) 502-4900<br>
-                            <b>Address:</b><br> 2101 Milmar Dr.<br>
-                            Dallas, TX 75228<br>
-                            <b>Email:</b><br>slosoya@dallasisd.org<br> brcruz@dallasisd.org
-                        </p>
+            <div class="container col-6">
+                <form class="">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><b>Name:</b></label>
+                        <input type="name" class="form-control" id="exampleInputPassword1">
                     </div>
-                </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"><b>Email address:</b></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 300px"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary mt-4">Submit</button>
 
+                </form>
+            </div>
+            <div class="container col-6">
+                <div class="box text-center" id="blurb" style="align-items: center;">
+                    <h2>Contact Us</h2><br>
+                    <div class="row justify-content-center">
+                        <div class="">
+                            <p><b>Phone:</b><br> (972) 502-4900<br>
+                                <b>Address:</b><br> 2101 Milmar Dr.<br>
+                                Dallas, TX 75228<br>
+                                <b>Email:</b><br>slosoya@dallasisd.org<br> brcruz@dallasisd.org
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -107,7 +113,9 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
